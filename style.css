@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background-color: hsla(0, 100%, 96%, 0.749);
+}
+header{
+    background-color: #dc7373;
+    width: 390px;
+    height: 80px;
+    display: flex;
+}
+.h1{
+    width: 195px;
+}
+
+.h1 h1{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.login-place{
+    width: 195px;
+}
+nav{
+    margin-top: 27px;
+    margin-left: 29px;
+}
+nav a{
+    text-decoration: none;
+    color: #dc7373;
+    margin-left: 10px;
+    font-size: 25px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.starting-page{
+    width: 100%;
+    background-color: #dc737395;
+    height: 844px;
+    
+}
+.container{
+    
+}
+
+.main{
+    width: 80%;
+    height: 500px;
+    background-color: #dc7373;
+    margin-top: 80px;
+    margin-left: 40px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-radius: 15px;
+
+}
+.img-space{
+    background-color: #30c481;
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    box-sizing: content-box;
+}
+.img-space img{
+    width: 100%;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.question-space{
+    margin-top: 20px;
+    padding-left: 14px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.answer-space{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.answer-space button{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: lighter;
+    color: #dc7373;
+}
+.btns:hover{
+    background-color: rgba(5, 5, 5, 0.428);
+    color: #fff;
+}
+
+
+
+.button-space{
+    display: flex;
+    justify-content: end;
+    
+}
+.button-space button{
+    width: 150px;
+    height: 40px;
+    background-color: #dc7373e3;
+    font-family: sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 9px;
+    border: none;
+}
+.next-btn:hover{
+    background-color: rgba(5, 5, 5, 0.428);
+    color: #fff;
+}
